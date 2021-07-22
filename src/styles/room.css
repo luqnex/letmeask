@@ -1,0 +1,117 @@
+#page-room header {
+    padding: 24px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+#page-room .content {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-room .content img {
+    max-height: 45px;
+}
+
+#page-room main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#page-room main .room-title {
+    margin: 32px 0 24px;
+    display: flex;
+    align-items: center;
+}
+
+#page-room main .room-title h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #29292e;
+}
+
+#page-room main .room-title span {
+    margin-left: 16px;
+    background-color: #e559f9;
+    border-radius: 999px;
+    padding: 8px 16px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#page-room main form textarea {
+    width: 100%;
+    border: 0;
+    padding: 16px;
+    border-radius: 8px;
+    background: #fefefe;
+    box-shadow: 0 2px 12px rgba(26, 26, 26, .09);
+    resize: vertical;
+    min-height: 130px;
+}
+
+#page-room .form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+#page-room .form-footer .user-info {
+    display: flex;
+    align-items: center;
+}
+
+#page-room .form-footer .user-info img {
+    width: 32px;
+    border-radius: 50%;
+}
+
+#page-room .form-footer .user-info span {
+    margin-left: 8px;
+    color: #29292e;
+    font-weight: bold; 
+    font-size: 14px;
+}
+
+#page-room .form-footer span {
+    font-size: 14px;
+    color: #737380;
+    font-weight: 500;
+}
+
+#page-room .form-footer button {
+    background: transparent;
+    border: 0;
+    color: #835AFD;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#page-room .form-footer .buttonPurple {
+    height: 5rem;
+    padding: 2rem;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: .8rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    background: #835AFD;
+    transition: .6s;
+
+    text-decoration: none;
+}
+
+#page-room .form-footer .buttonPurple:hover {
+    background: #6948ca;
+    cursor: pointer;
+}
+

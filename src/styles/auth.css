@@ -1,0 +1,129 @@
+#content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#content aside {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3.2rem;
+    
+    background-color: #835AFD;
+    
+    color: white;
+}
+
+#content aside img {
+    width: 250px;
+    margin-right: 25rem;
+}
+
+#content aside .text {
+    width: 80%;
+}
+
+#content aside .text strong {
+    font-size: clamp(12px, 3rem, 5vw);
+    
+}
+
+#content aside .text p {
+    text-align: left;
+    font-size: clamp(12px, 1.8rem, 5vw);
+    margin-top: 20px;
+
+    font-weight: 500;
+}
+
+#content main {
+    width: 50vw;   
+}
+
+#content main #content-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 3.2rem
+}
+
+#content main #content-main #logo {
+    margin-bottom: 5rem;
+}
+
+#content main #content-main .buttonRed {
+    width: 36rem;
+    height: 5rem;
+    padding: 1.5rem 0;
+    border: none;
+    border-radius: .8rem;
+    background-color: #EA4335;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-size: 1.6rem;
+    transition: .6s;
+}
+
+#content main #content-main .buttonRed:hover {
+    background-color: #c2392d;
+}   
+
+#content main #content-main .buttonRed img {
+    margin-right: 1rem;
+}
+
+#content main #content-main #text {
+    display: flex;
+    align-items: center;
+}
+
+#content main #content-main #text p {
+    color: #A8A8B3;
+    font-size: 1.4rem;
+    margin: 2rem 0;
+
+}
+
+#content main #content-main #text p::before {
+    content: '';
+    width: 50px;
+    height: 1px;
+
+    background: #000;
+}
+
+
+
+#content main #content-main form {
+    display: flex;
+    flex-direction: column;
+}
+
+#content main #content-main form input {
+    width: 36rem;
+    height: 5rem;
+    padding: 1.5rem 2rem;
+    font-size: 1.6rem;
+
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: .8rem;
+
+    margin-bottom: 2rem;
+}
+
+#content main #content-main form input::placeholder {
+    color: rgb(150, 150, 150);
+}
+

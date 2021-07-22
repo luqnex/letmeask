@@ -1,0 +1,16 @@
+h2 {
+    font-size: 2.4rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2rem;
+}
+
+#content-main p {
+    font-size: 1.4rem;
+    color: #737380;
+    margin-top: 1.6rem;
+}
+
+a {
+    font-size: 1.6rem;
+    color: #e559f9;
+}
